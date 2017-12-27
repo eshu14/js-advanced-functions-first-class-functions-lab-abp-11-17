@@ -26,7 +26,7 @@ function fareTripler(fare)
 }
 function selectDifferentDrivers(arrayOfDrivers, fn)
 {
-  if (fn.name.toString()==="returnFirstTwoDrivers()")
+  if (fn.name.toString()==="returnFirstTwoDrivers")
   {
     return returnFirstTwoDrivers(arrayOfDrivers);
   }
