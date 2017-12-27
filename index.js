@@ -13,10 +13,11 @@ function createFareMultiplier(multiplier){
     return multiplier*fare;
   }
 }
-const fareDoubler2=createFareMultiplier()();
+
 
 function fareDoubler(fare)
 {
+  const fareDoubler2=createFareMultiplier(2);
   return fareDoubler2;
 }
 
