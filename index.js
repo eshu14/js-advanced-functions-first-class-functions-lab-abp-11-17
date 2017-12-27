@@ -24,9 +24,9 @@ function fareTripler(fare)
   const fareTripler3=createFareMultiplier(3);
   return fareTripler3(fare);
 }
-function selectDifferentDrivers(arrayOfDrivers, Function)
+function selectDifferentDrivers(arrayOfDrivers, fn)
 {
-  if Function.name=returnFirstTwoDrivers()
+  if fn.name=returnFirstTwoDrivers()
   {
     returnFirstTwoDrivers(arrayOfDrivers);
   }
