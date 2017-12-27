@@ -23,7 +23,8 @@ function fareDoubler(fare)
 
 function fareTripler(fare)
 {
-  return createFareMultiplier(3);
+  const fareTripler3=createFareMultiplier(3);
+  return fareTripler3(fare);
 }
 /*function selectDifferentDrivers(arrayOfDrivers, function)
 {
