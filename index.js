@@ -28,10 +28,10 @@ function selectDifferentDrivers(arrayOfDrivers, fn)
 {
   if (fn.toString()=="returnFirstTwoDrivers()")
   {
-    returnFirstTwoDrivers(arrayOfDrivers);
+    return returnFirstTwoDrivers(arrayOfDrivers);
   }
   else
   {
-    returnLastTwoDrivers(arrayOfDrivers);
+    return returnLastTwoDrivers(arrayOfDrivers);
   }
 }
